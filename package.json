@@ -1,0 +1,29 @@
+{
+  "name": "react-native-promise-rejection-utils",
+  "version": "0.0.0",
+  "description": "Utils for global tracking of unhandled promise rejections",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "postversion": "git push && git push --tags"
+  },
+  "keywords": [
+    "react-native",
+    "promise",
+    "error-handling"
+  ],
+  "author": "iyegoroff <iegoroff@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iyegoroff/react-native-promise-rejection-utils/issues"
+  },
+  "homepage": "https://github.com/iyegoroff/react-native-promise-rejection-utils#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iyegoroff/react-native-promise-rejection-utils.git"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  }
+}
